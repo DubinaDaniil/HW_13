@@ -17,11 +17,11 @@ public class Main {
                 .build();
 
         String uri = "https://jsonplaceholder.typicode.com";
+        HttpClient httpClient = HttpClient.newHttpClient();
         HttpRequest createUser = HttpRequest.newBuilder(new URI(uri))
                 .method("POST", HttpRequest.BodyPublishers.ofString(gson.toJson(userRequest)))
                 .version(HttpClient.Version.HTTP_1_1)
                 .build();
-        HttpClient httpClient = HttpClient.newHttpClient();
         HttpResponse<String> response = httpClient.send(createUser, HttpResponse.BodyHandlers.ofString());
         System.out.println("response.statusCode() = " + response.statusCode());
         System.out.println("response.body() = " + response.body());
@@ -52,6 +52,17 @@ public class Main {
         HttpResponse<String> getAllCustomersResponse = httpClient.send(getAllCustomers, HttpResponse.BodyHandlers.ofString());
         System.out.println("getAllCustomersResponse.statusCode() = " + getAllCustomersResponse.statusCode());
         System.out.println("getAllCustomersResponse.body() = " + getAllCustomersResponse.body());
+        System.out.println();
+
+        HttpRequest getCustomerById = HttpRequest.newBuilder(new URI(uri+ "/users/1"))
+                .GET()
+                .build();
+        HttpResponse<String> getCustomerByIdResponse = httpClient.send(getCustomerById, HttpResponse.BodyHandlers.ofString());
+        System.out.println("getCustomerByIdResponse.statusCode() = " + getCustomerByIdResponse.statusCode());
+        System.out.println("getCustomerByIdResponse.body() = " + getCustomerByIdResponse.body());
+        System.out.println();
+
+
         System.out.println();
 
 
