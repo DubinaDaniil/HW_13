@@ -18,7 +18,7 @@ public class Main {
 
         String uri = "https://jsonplaceholder.typicode.com";
         HttpClient httpClient = HttpClient.newHttpClient();
-        HttpRequest createUser = HttpRequest.newBuilder(new URI(uri))
+        HttpRequest createUser = HttpRequest.newBuilder(new URI(uri + "/users"))
                 .method("POST", HttpRequest.BodyPublishers.ofString(gson.toJson(userRequest)))
                 .version(HttpClient.Version.HTTP_1_1)
                 .build();
@@ -30,7 +30,7 @@ public class Main {
         User updateUserBody = User.builder()
                 .userName("I7Pi3PAk")
                 .build();
-        HttpRequest updateUserRequest = HttpRequest.newBuilder(new URI(uri + "/users" + 10))
+        HttpRequest updateUserRequest = HttpRequest.newBuilder(new URI(uri + "/users/" + 10))
                 .PUT(HttpRequest.BodyPublishers.ofString(gson.toJson(updateUserBody)))
                 .version(HttpClient.Version.HTTP_1_1)
                 .build();
@@ -39,7 +39,7 @@ public class Main {
         System.out.println("updateResponse.body() = " + updateResponse.body());
         System.out.println();
 
-        HttpRequest deleteUserRequest = HttpRequest.newBuilder(new URI(uri + "/users" + 10))
+        HttpRequest deleteUserRequest = HttpRequest.newBuilder(new URI(uri + "/users/" + 10))
                 .DELETE()
                 .build();
         HttpResponse<String> deleteResponse = httpClient.send(deleteUserRequest, HttpResponse.BodyHandlers.ofString());
