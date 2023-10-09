@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ddad33e-bdc0-46b0-80c6-ba6d304f5987" name="Changes" comment=" move.gitignore to root">
+    <list default="true" id="1ddad33e-bdc0-46b0-80c6-ba6d304f5987" name="Changes" comment="updated.gitignore">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Todos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/g.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,19 +31,21 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2WTymlL0v5VCABgy1dej7wN2Ghh" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Home_Work/HW_13"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Home_Work/HW_13&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Home_Work\HW_13" />
@@ -77,6 +82,7 @@
       <workItem from="1696771028834" duration="300000" />
       <workItem from="1696771334791" duration="12000" />
       <workItem from="1696771363748" duration="6374000" />
+      <workItem from="1696868313423" duration="8671000" />
     </task>
     <task id="LOCAL-00001" summary="create User">
       <created>1696771447716</created>
@@ -155,6 +161,7 @@
     <MESSAGE value="getCustomerById" />
     <MESSAGE value="getCustomerByUsername" />
     <MESSAGE value=" move.gitignore to root" />
-    <option name="LAST_COMMIT_MESSAGE" value=" move.gitignore to root" />
+    <MESSAGE value="updated.gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated.gitignore" />
   </component>
 </project>
