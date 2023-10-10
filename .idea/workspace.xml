@@ -4,13 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ddad33e-bdc0-46b0-80c6-ba6d304f5987" name="Changes" comment="updated.gitignore">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Todos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/g.json" afterDir="false" />
+    <list default="true" id="1ddad33e-bdc0-46b0-80c6-ba6d304f5987" name="Changes" comment="TASK 3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Comments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Geo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Posts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/g.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/User$UserBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/User.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +88,11 @@
       <workItem from="1696771028834" duration="300000" />
       <workItem from="1696771334791" duration="12000" />
       <workItem from="1696771363748" duration="6374000" />
-      <workItem from="1696868313423" duration="8671000" />
+      <workItem from="1696868313423" duration="9510000" />
+      <workItem from="1696919006014" duration="13000" />
+      <workItem from="1696954242484" duration="4000" />
+      <workItem from="1696963057354" duration="66000" />
+      <workItem from="1696964610796" duration="5348000" />
     </task>
     <task id="LOCAL-00001" summary="create User">
       <created>1696771447716</created>
@@ -126,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696777849592</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="TASK 3">
+      <created>1696877517713</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1696877517713</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +179,7 @@
     <MESSAGE value="getCustomerByUsername" />
     <MESSAGE value=" move.gitignore to root" />
     <MESSAGE value="updated.gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated.gitignore" />
+    <MESSAGE value="TASK 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="TASK 3" />
   </component>
 </project>
